@@ -159,17 +159,3 @@ submission.
   after `pip install -r requirements.txt` to confirm the solver on your own
   machine before demo day.
 
-## Pushing this to GitHub
-
-```bash
-cd saajha-matching-engine
-git init
-git add .
-git commit -m "Saajha VRPPD/VRPTW matching engine + baseline benchmark"
-git branch -M main
-git remote add origin <your-empty-GitHub-repo-URL>
-git push -u origin main
-```
-
-Then add the repository URL to the hackathon submission form's "Additional
-supporting links (GitHub/research reference)" field.
